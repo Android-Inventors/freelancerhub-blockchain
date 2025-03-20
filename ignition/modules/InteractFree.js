@@ -1,7 +1,7 @@
 const hre = require("hardhat");
 
 async function main() {
-    const freelancer = await ethers.getContractAt("Freelancer", "0xa16E02E87b7454126E5E10d957A927A7F5B5d2be");
+    const freelancer = await ethers.getContractAt("Freelancer", "0x9CfA6D15c80Eb753C815079F2b32ddEFd562C3e4");
 
     // Register a freelancer
     const name = await freelancer.name();
